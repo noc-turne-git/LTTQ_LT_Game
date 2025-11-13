@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Media.Media3D;
 using System.Windows.Shapes;
+using CloudGame.Core;
 
 namespace CloudGame.Scene
 {
@@ -24,28 +25,10 @@ namespace CloudGame.Scene
         public GameScene()
         {
             InitializeComponent();
-            this.Loaded += (s, e) =>
-            {
-                try
-                {
-                    DownLoadAssets();
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Lỗi load ảnh: " + ex.Message);
-                }
-            };
-            //DownLoadAssets();
+            var gameHost = new GameHost(); // tạo UI ảo
+            this.Content = gameHost; // gán UI ảo vào Content của Window
         }
 
-        void DownLoadAssets() {
-            var image = Asset.AssetService.GetImage("Asset/Scene.png");
-            Image imgControl = new Image();
-            imgControl.Source = image;
-            imgControl.Stretch = Stretch.Fill; // hoặc Uniform
-            imgControl.Width = this.Width;
-            imgControl.Height = this.Height;
-            this.Content = imgControl;
-        } 
+        
     }
 }

@@ -35,13 +35,13 @@ namespace CloudGame.Asset
 
             if (!File.Exists(path))
             {
-                MessageBox.Show($"File không tồn tại: {path}");
+                Console.WriteLine($"File không tồn tại: {path}");
                 return null;
             }
 
             var bitmap = new BitmapImage();
             bitmap.BeginInit();
-            bitmap.UriSource = new Uri(path, UriKind.Absolute);
+            bitmap.UriSource = new Uri(path, UriKind.Relative);
             bitmap.CacheOption = BitmapCacheOption.OnLoad;
             bitmap.CreateOptions = BitmapCreateOptions.IgnoreImageCache;
             bitmap.EndInit();

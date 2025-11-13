@@ -8,6 +8,11 @@ namespace CloudGame.Core
 {       
     internal class GameTime
     {
-        public TimeSpan DeltaTime { get; set; }
+        public TimeSpan DeltaTime { get; set; } = TimeSpan.Zero;
+        public TimeSpan TotalTime { get; set; } = TimeSpan.Zero;
+        public TimeSpan LastFrame { get; set; } = TimeSpan.Zero;
+        public TimeSpan IntervalEnemySpawn { get; set;  } = TimeSpan.FromSeconds(1);
+
+
     }
 }
