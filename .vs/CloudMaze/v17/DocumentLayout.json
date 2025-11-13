@@ -1,71 +1,52 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\LTTQ\\L\u00FD thuy\u1EBFt\\CloudMaze\\",
+  "WorkspaceRootPath": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|d:\\lttq\\l\u00FD thuy\u1EBFt\\cloudmaze\\cloudmaze\\asset\\proceduralartfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|solutionrelative:cloudmaze\\asset\\proceduralartfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acer\\AppData\\Local\\SourceServer\\40fc69e6e8424ddac55e18388415886d492de592f86a98b63592a7e9d3c50801\\src\\coreclr\\System.Private.CoreLib\\src\\System\\RuntimeType.CoreCLR.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|d:\\lttq\\l\u00FD thuy\u1EBFt\\cloudmaze\\cloudmaze\\asset\\assetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|d:\\uit\\l\u1EADp tr\u00ECnh tr\u1EF1c quan\\code l\u00ED thuy\u1EBFt\\cloudemaze\\lttq_lt_game\\cloudmaze\\asset\\assetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|solutionrelative:cloudmaze\\asset\\assetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|d:\\lttq\\l\u00FD thuy\u1EBFt\\cloudmaze\\cloudmaze\\scenes\\gamescene.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|solutionrelative:cloudmaze\\scenes\\gamescene.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|d:\\uit\\l\u1EADp tr\u00ECnh tr\u1EF1c quan\\code l\u00ED thuy\u1EBFt\\cloudemaze\\lttq_lt_game\\cloudmaze\\entities\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|solutionrelative:cloudmaze\\entities\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|d:\\lttq\\l\u00FD thuy\u1EBFt\\cloudmaze\\cloudmaze\\entities\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|solutionrelative:cloudmaze\\entities\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|d:\\uit\\l\u1EADp tr\u00ECnh tr\u1EF1c quan\\code l\u00ED thuy\u1EBFt\\cloudemaze\\lttq_lt_game\\cloudmaze\\core\\inputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|solutionrelative:cloudmaze\\core\\inputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|d:\\lttq\\l\u00FD thuy\u1EBFt\\cloudmaze\\cloudmaze\\entities\\maze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|solutionrelative:cloudmaze\\entities\\maze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|d:\\lttq\\l\u00FD thuy\u1EBFt\\cloudmaze\\cloudmaze\\app.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|solutionrelative:cloudmaze\\app.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|d:\\lttq\\l\u00FD thuy\u1EBFt\\cloudmaze\\cloudmaze\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|solutionrelative:cloudmaze\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|d:\\lttq\\l\u00FD thuy\u1EBFt\\cloudmaze\\cloudmaze\\scenes\\mainmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|solutionrelative:cloudmaze\\scenes\\mainmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|d:\\lttq\\l\u00FD thuy\u1EBFt\\cloudmaze\\cloudmaze\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|solutionrelative:cloudmaze\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|d:\\lttq\\l\u00FD thuy\u1EBFt\\cloudmaze\\cloudmaze\\scenes\\gamescene.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|solutionrelative:cloudmaze\\scenes\\gamescene.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|d:\\lttq\\l\u00FD thuy\u1EBFt\\cloudmaze\\cloudmaze\\core\\gametime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|solutionrelative:cloudmaze\\core\\gametime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|d:\\lttq\\l\u00FD thuy\u1EBFt\\cloudmaze\\cloudmaze\\scenes\\mainmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|solutionrelative:cloudmaze\\scenes\\mainmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|d:\\lttq\\l\u00FD thuy\u1EBFt\\cloudmaze\\cloudmaze\\core\\gamehost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|d:\\uit\\l\u1EADp tr\u00ECnh tr\u1EF1c quan\\code l\u00ED thuy\u1EBFt\\cloudemaze\\lttq_lt_game\\cloudmaze\\core\\gamehost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|solutionrelative:cloudmaze\\core\\gamehost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|d:\\lttq\\l\u00FD thuy\u1EBFt\\cloudmaze\\cloudmaze\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|solutionrelative:cloudmaze\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|d:\\uit\\l\u1EADp tr\u00ECnh tr\u1EF1c quan\\code l\u00ED thuy\u1EBFt\\cloudemaze\\lttq_lt_game\\cloudmaze\\scenes\\gamescene.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|solutionrelative:cloudmaze\\scenes\\gamescene.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|d:\\uit\\l\u1EADp tr\u00ECnh tr\u1EF1c quan\\code l\u00ED thuy\u1EBFt\\cloudemaze\\lttq_lt_game\\cloudmaze\\asset\\proceduralartfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|solutionrelative:cloudmaze\\asset\\proceduralartfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|d:\\uit\\l\u1EADp tr\u00ECnh tr\u1EF1c quan\\code l\u00ED thuy\u1EBFt\\cloudemaze\\lttq_lt_game\\cloudmaze\\entities\\maze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|solutionrelative:cloudmaze\\entities\\maze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|d:\\uit\\l\u1EADp tr\u00ECnh tr\u1EF1c quan\\code l\u00ED thuy\u1EBFt\\cloudemaze\\lttq_lt_game\\cloudmaze\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|solutionrelative:cloudmaze\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|d:\\uit\\l\u1EADp tr\u00ECnh tr\u1EF1c quan\\code l\u00ED thuy\u1EBFt\\cloudemaze\\lttq_lt_game\\cloudmaze\\entities\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|solutionrelative:cloudmaze\\entities\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|d:\\uit\\l\u1EADp tr\u00ECnh tr\u1EF1c quan\\code l\u00ED thuy\u1EBFt\\cloudemaze\\lttq_lt_game\\cloudmaze\\scenes\\mainmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|solutionrelative:cloudmaze\\scenes\\mainmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|d:\\lttq\\l\u00FD thuy\u1EBFt\\cloudmaze\\cloudmaze\\cloudmaze.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|d:\\uit\\l\u1EADp tr\u00ECnh tr\u1EF1c quan\\code l\u00ED thuy\u1EBFt\\cloudemaze\\lttq_lt_game\\cloudmaze\\cloudmaze.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{9822856A-0CDB-431C-80D1-F89B83D8B4D2}|CloudMaze\\CloudMaze.csproj|solutionrelative:cloudmaze\\cloudmaze.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -76,112 +57,140 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "InputService.cs",
+              "DocumentMoniker": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudMaze\\Core\\InputService.cs",
+              "RelativeDocumentMoniker": "CloudMaze\\Core\\InputService.cs",
+              "ToolTip": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudMaze\\Core\\InputService.cs",
+              "RelativeToolTip": "CloudMaze\\Core\\InputService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T08:42:19.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "AssetService.cs",
-              "DocumentMoniker": "D:\\LTTQ\\L\u00FD thuy\u1EBFt\\CloudMaze\\CloudMaze\\Asset\\AssetService.cs",
+              "DocumentMoniker": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudMaze\\Asset\\AssetService.cs",
               "RelativeDocumentMoniker": "CloudMaze\\Asset\\AssetService.cs",
-              "ToolTip": "D:\\LTTQ\\L\u00FD thuy\u1EBFt\\CloudMaze\\CloudMaze\\Asset\\AssetService.cs",
+              "ToolTip": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudMaze\\Asset\\AssetService.cs",
               "RelativeToolTip": "CloudMaze\\Asset\\AssetService.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAawDIAAAANAAAAAAAAAA==",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAYwDYAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T12:26:31.015Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Enemy.cs",
-              "DocumentMoniker": "D:\\LTTQ\\L\u00FD thuy\u1EBFt\\CloudMaze\\CloudMaze\\Entities\\Enemy.cs",
-              "RelativeDocumentMoniker": "CloudMaze\\Entities\\Enemy.cs",
-              "ToolTip": "D:\\LTTQ\\L\u00FD thuy\u1EBFt\\CloudMaze\\CloudMaze\\Entities\\Enemy.cs",
-              "RelativeToolTip": "CloudMaze\\Entities\\Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T20:38:22.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "D:\\LTTQ\\L\u00FD thuy\u1EBFt\\CloudMaze\\CloudMaze\\App.xaml.cs",
-              "RelativeDocumentMoniker": "CloudMaze\\App.xaml.cs",
-              "ToolTip": "D:\\LTTQ\\L\u00FD thuy\u1EBFt\\CloudMaze\\CloudMaze\\App.xaml.cs",
-              "RelativeToolTip": "CloudMaze\\App.xaml.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAcwBgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T19:54:25.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Maze.cs",
-              "DocumentMoniker": "D:\\LTTQ\\L\u00FD thuy\u1EBFt\\CloudMaze\\CloudMaze\\Entities\\Maze.cs",
-              "RelativeDocumentMoniker": "CloudMaze\\Entities\\Maze.cs",
-              "ToolTip": "D:\\LTTQ\\L\u00FD thuy\u1EBFt\\CloudMaze\\CloudMaze\\Entities\\Maze.cs",
-              "RelativeToolTip": "CloudMaze\\Entities\\Maze.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwFMAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T10:24:02.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GameScene.xaml.cs",
-              "DocumentMoniker": "D:\\LTTQ\\L\u00FD thuy\u1EBFt\\CloudMaze\\CloudMaze\\Scenes\\GameScene.xaml.cs",
-              "RelativeDocumentMoniker": "CloudMaze\\Scenes\\GameScene.xaml.cs",
-              "ToolTip": "D:\\LTTQ\\L\u00FD thuy\u1EBFt\\CloudMaze\\CloudMaze\\Scenes\\GameScene.xaml.cs",
-              "RelativeToolTip": "CloudMaze\\Scenes\\GameScene.xaml.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAqwBkAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T10:27:13.847Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RuntimeType.CoreCLR.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\AppData\\Local\\SourceServer\\40fc69e6e8424ddac55e18388415886d492de592f86a98b63592a7e9d3c50801\\src\\coreclr\\System.Private.CoreLib\\src\\System\\RuntimeType.CoreCLR.cs",
-              "ToolTip": "C:\\Users\\acer\\AppData\\Local\\SourceServer\\40fc69e6e8424ddac55e18388415886d492de592f86a98b63592a7e9d3c50801\\src\\coreclr\\System.Private.CoreLib\\src\\System\\RuntimeType.CoreCLR.cs [Read Only]",
-              "ViewState": "AgIAAPAOAAAAAAAAAAAtwPUOAAAUAAAAAQAAAA==",
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudMaze\\Entities\\Player.cs",
+              "RelativeDocumentMoniker": "CloudMaze\\Entities\\Player.cs",
+              "ToolTip": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudMaze\\Entities\\Player.cs",
+              "RelativeToolTip": "CloudMaze\\Entities\\Player.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowBQAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T20:22:14.85Z",
-              "EditorCaption": " [Read Only]"
+              "WhenOpened": "2025-11-13T08:43:08.448Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "GameHost.cs",
+              "DocumentMoniker": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudMaze\\Core\\GameHost.cs",
+              "RelativeDocumentMoniker": "CloudMaze\\Core\\GameHost.cs",
+              "ToolTip": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudMaze\\Core\\GameHost.cs",
+              "RelativeToolTip": "CloudMaze\\Core\\GameHost.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T10:29:44.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameScene.xaml.cs",
+              "DocumentMoniker": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudMaze\\Scenes\\GameScene.xaml.cs",
+              "RelativeDocumentMoniker": "CloudMaze\\Scenes\\GameScene.xaml.cs",
+              "ToolTip": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudMaze\\Scenes\\GameScene.xaml.cs",
+              "RelativeToolTip": "CloudMaze\\Scenes\\GameScene.xaml.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA7wDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T09:11:14.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ProceduralArtFactory.cs",
-              "DocumentMoniker": "D:\\LTTQ\\L\u00FD thuy\u1EBFt\\CloudMaze\\CloudMaze\\Asset\\ProceduralArtFactory.cs",
+              "DocumentMoniker": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudMaze\\Asset\\ProceduralArtFactory.cs",
               "RelativeDocumentMoniker": "CloudMaze\\Asset\\ProceduralArtFactory.cs",
-              "ToolTip": "D:\\LTTQ\\L\u00FD thuy\u1EBFt\\CloudMaze\\CloudMaze\\Asset\\ProceduralArtFactory.cs",
+              "ToolTip": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudMaze\\Asset\\ProceduralArtFactory.cs",
               "RelativeToolTip": "CloudMaze\\Asset\\ProceduralArtFactory.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAASwGUAAABRAAAAAAAAAA==",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAF4AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T12:26:53.422Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GameScene.xaml",
-              "DocumentMoniker": "D:\\LTTQ\\L\u00FD thuy\u1EBFt\\CloudMaze\\CloudMaze\\Scenes\\GameScene.xaml",
-              "RelativeDocumentMoniker": "CloudMaze\\Scenes\\GameScene.xaml",
-              "ToolTip": "D:\\LTTQ\\L\u00FD thuy\u1EBFt\\CloudMaze\\CloudMaze\\Scenes\\GameScene.xaml",
-              "RelativeToolTip": "CloudMaze\\Scenes\\GameScene.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-11T10:27:10.039Z"
+              "DocumentIndex": 6,
+              "Title": "Maze.cs",
+              "DocumentMoniker": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudMaze\\Entities\\Maze.cs",
+              "RelativeDocumentMoniker": "CloudMaze\\Entities\\Maze.cs",
+              "ToolTip": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudMaze\\Entities\\Maze.cs",
+              "RelativeToolTip": "CloudMaze\\Entities\\Maze.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T10:24:02.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudMaze\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CloudMaze\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudMaze\\MainWindow.xaml.cs",
+              "RelativeToolTip": "CloudMaze\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T08:40:24.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudMaze\\Entities\\Enemy.cs",
+              "RelativeDocumentMoniker": "CloudMaze\\Entities\\Enemy.cs",
+              "ToolTip": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudMaze\\Entities\\Enemy.cs",
+              "RelativeToolTip": "CloudMaze\\Entities\\Enemy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T20:38:22.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -191,23 +200,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\LTTQ\\L\u00FD thuy\u1EBFt\\CloudMaze\\CloudMaze\\App.xaml",
-              "RelativeDocumentMoniker": "CloudMaze\\App.xaml",
-              "ToolTip": "D:\\LTTQ\\L\u00FD thuy\u1EBFt\\CloudMaze\\CloudMaze\\App.xaml",
-              "RelativeToolTip": "CloudMaze\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-11T10:30:01.758Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "MainMenu.xaml.cs",
-              "DocumentMoniker": "D:\\LTTQ\\L\u00FD thuy\u1EBFt\\CloudMaze\\CloudMaze\\Scenes\\MainMenu.xaml.cs",
+              "DocumentMoniker": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudMaze\\Scenes\\MainMenu.xaml.cs",
               "RelativeDocumentMoniker": "CloudMaze\\Scenes\\MainMenu.xaml.cs",
-              "ToolTip": "D:\\LTTQ\\L\u00FD thuy\u1EBFt\\CloudMaze\\CloudMaze\\Scenes\\MainMenu.xaml.cs",
+              "ToolTip": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudMaze\\Scenes\\MainMenu.xaml.cs",
               "RelativeToolTip": "CloudMaze\\Scenes\\MainMenu.xaml.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -215,69 +212,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\LTTQ\\L\u00FD thuy\u1EBFt\\CloudMaze\\CloudMaze\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "CloudMaze\\MainWindow.xaml",
-              "ToolTip": "D:\\LTTQ\\L\u00FD thuy\u1EBFt\\CloudMaze\\CloudMaze\\MainWindow.xaml",
-              "RelativeToolTip": "CloudMaze\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-11T13:46:01.066Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "GameHost.cs",
-              "DocumentMoniker": "D:\\LTTQ\\L\u00FD thuy\u1EBFt\\CloudMaze\\CloudMaze\\Core\\GameHost.cs",
-              "RelativeDocumentMoniker": "CloudMaze\\Core\\GameHost.cs",
-              "ToolTip": "D:\\LTTQ\\L\u00FD thuy\u1EBFt\\CloudMaze\\CloudMaze\\Core\\GameHost.cs",
-              "RelativeToolTip": "CloudMaze\\Core\\GameHost.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAswBIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T10:29:44.402Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MainMenu.xaml",
-              "DocumentMoniker": "D:\\LTTQ\\L\u00FD thuy\u1EBFt\\CloudMaze\\CloudMaze\\Scenes\\MainMenu.xaml",
-              "RelativeDocumentMoniker": "CloudMaze\\Scenes\\MainMenu.xaml",
-              "ToolTip": "D:\\LTTQ\\L\u00FD thuy\u1EBFt\\CloudMaze\\CloudMaze\\Scenes\\MainMenu.xaml",
-              "RelativeToolTip": "CloudMaze\\Scenes\\MainMenu.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-11T10:28:06.031Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\LTTQ\\L\u00FD thuy\u1EBFt\\CloudMaze\\CloudMaze\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "CloudMaze\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\LTTQ\\L\u00FD thuy\u1EBFt\\CloudMaze\\CloudMaze\\MainWindow.xaml.cs",
-              "RelativeToolTip": "CloudMaze\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T08:40:24.825Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "GameTime.cs",
-              "DocumentMoniker": "D:\\LTTQ\\L\u00FD thuy\u1EBFt\\CloudMaze\\CloudMaze\\Core\\GameTime.cs",
-              "RelativeDocumentMoniker": "CloudMaze\\Core\\GameTime.cs",
-              "ToolTip": "D:\\LTTQ\\L\u00FD thuy\u1EBFt\\CloudMaze\\CloudMaze\\Core\\GameTime.cs",
-              "RelativeToolTip": "CloudMaze\\Core\\GameTime.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T10:29:00.111Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
               "Title": "CloudMaze.csproj",
-              "DocumentMoniker": "D:\\LTTQ\\L\u00FD thuy\u1EBFt\\CloudMaze\\CloudMaze\\CloudMaze.csproj",
+              "DocumentMoniker": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudMaze\\CloudMaze.csproj",
               "RelativeDocumentMoniker": "CloudMaze\\CloudMaze.csproj",
-              "ToolTip": "D:\\LTTQ\\L\u00FD thuy\u1EBFt\\CloudMaze\\CloudMaze\\CloudMaze.csproj",
+              "ToolTip": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudMaze\\CloudMaze.csproj",
               "RelativeToolTip": "CloudMaze\\CloudMaze.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",

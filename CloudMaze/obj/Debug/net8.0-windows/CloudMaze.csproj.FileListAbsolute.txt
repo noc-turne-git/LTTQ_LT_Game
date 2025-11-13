@@ -22,3 +22,12 @@ D:\LTTQ\Lý thuyết\CloudMaze\CloudMaze\obj\Debug\net8.0-windows\refint\CloudMa
 D:\LTTQ\Lý thuyết\CloudMaze\CloudMaze\obj\Debug\net8.0-windows\CloudMaze.pdb
 D:\LTTQ\Lý thuyết\CloudMaze\CloudMaze\obj\Debug\net8.0-windows\CloudMaze.genruntimeconfig.cache
 D:\LTTQ\Lý thuyết\CloudMaze\CloudMaze\obj\Debug\net8.0-windows\ref\CloudMaze.dll
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudMaze\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudMaze\obj\Debug\net8.0-windows\Scenes\GameScene.g.cs
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudMaze\obj\Debug\net8.0-windows\Scenes\MainMenu.g.cs
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudMaze\obj\Debug\net8.0-windows\App.g.cs
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudMaze\obj\Debug\net8.0-windows\CloudMaze_MarkupCompile.cache
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudMaze\obj\Debug\net8.0-windows\CloudMaze_MarkupCompile.lref
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudMaze\obj\Debug\net8.0-windows\CloudMaze.dll
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudMaze\obj\Debug\net8.0-windows\refint\CloudMaze.dll
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudMaze\obj\Debug\net8.0-windows\CloudMaze.pdb

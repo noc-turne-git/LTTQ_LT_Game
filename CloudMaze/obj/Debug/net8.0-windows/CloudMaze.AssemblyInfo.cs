@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CloudMaze")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6c22cf29e19e7ac9bae305413069a3b9417f034")]
 [assembly: System.Reflection.AssemblyProductAttribute("CloudMaze")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CloudMaze")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
