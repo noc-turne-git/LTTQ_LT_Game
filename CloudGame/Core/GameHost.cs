@@ -2,6 +2,7 @@
 using System.Diagnostics;
 using System.Windows;
 using System.Windows.Media;
+using System.Windows.Threading;
 using CloudGame.Entities;
 
 namespace CloudGame.Core
@@ -10,8 +11,10 @@ namespace CloudGame.Core
     {
         private readonly Stopwatch _stopwatch = new();
         private GameTime gameTime = new GameTime();
-        
+        private DispatcherTimer timer;
+
         private List<Enemy> enemies = new List<Enemy>(); // danh sách quái vật trong game
+        private Player player;
         private ImageSource backgroundImage; // ảnh nền
 
         public GameHost()
@@ -21,6 +24,18 @@ namespace CloudGame.Core
             _stopwatch.Start();
 
             backgroundImage = Asset.AssetService.GetImage("Asset/Scene.png");
+            Loaded += (s, e) =>
+            {
+                player = new Player(this.ActualWidth);
+                timer = new DispatcherTimer();
+                timer.Interval = TimeSpan.FromMilliseconds(16); // ~60 FPS
+                timer.Tick += Timer_Tick;
+                timer.Start();
+            };
+        }
+        private void Timer_Tick(object sender, EventArgs e)
+        {
+            InvalidateVisual(); // gọi OnRender
         }
 
         // đây là lớp kế thừa FrameworkElement (--> UIElement)
@@ -32,11 +47,17 @@ namespace CloudGame.Core
 
             var now = _stopwatch.Elapsed;                          //Lấy thời điểm hiện tại kể từ khi game bắt đầu chạy.
             gameTime.DeltaTime = now - gameTime.LastFrame;         //Tính thời gian trôi qua giữa hai khung hình (frame time).
-            gameTime.TotalTime = now;                               
-
+            gameTime.TotalTime = now;
+            double deltaSeconds = gameTime.DeltaTime.TotalSeconds;
             dc.DrawImage(backgroundImage, new Rect(0, 0, this.ActualWidth, this.ActualHeight));
             //Console.WriteLine("Create background");
             // TODO: Update game logic here
+            if (player != null)
+            {
+                player.Update(deltaSeconds, ActualWidth, ActualHeight);
+                dc.DrawImage(player.image, new Rect(player.X, player.Y, player.Width, player.Height));
+            } 
+                
 
             //Sau 1 thoi gian --> xuất hiện 1 quái vật
             Enemy newEnemy = Enemy.CreateEnemy(gameTime, (int)this.ActualWidth, (int) this.ActualHeight);
@@ -50,14 +71,14 @@ namespace CloudGame.Core
                 //Console.WriteLine($"Enemy Pos: {en.X}, {en.Y}");
                 //Console.WriteLine($"DeltaTime: {gameTime.DeltaTime.TotalSeconds}s, TotalTime: {gameTime.TotalSeconds.TotalSeconds}s");
 
-                double deltaSeconds = gameTime.DeltaTime.TotalSeconds;
+               // double deltaSeconds = gameTime.DeltaTime.TotalSeconds;
                 en.UpdatePos(deltaSeconds, (int)this.ActualWidth, (int)this.ActualHeight);
             }
             gameTime.LastFrame = now;                              //Ghi lại thời điểm hiện tại để frame sau tính tiếp. 
 
             // TODO: Draw game objects here
 
-            InvalidateVisual(); // gọi lại render, ko cần Timer_Tick
+           // InvalidateVisual(); // gọi lại render, ko cần Timer_Tick
         }
     }
 }

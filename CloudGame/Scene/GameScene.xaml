@@ -5,7 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CloudGame.Scene"
         mc:Ignorable="d"    
-        Title="GameScene" Height="700" Width="700">
+        Title="GameScene" Height="700" Width="700"
+        ResizeMode="NoResize"  
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="SingleBorderWindow">
     <Grid Name="MainGrid">
     </Grid>
 </Window>

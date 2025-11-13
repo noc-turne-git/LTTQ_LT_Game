@@ -19,3 +19,24 @@ D:\LTTQ\Lý thuyết\CloudGame\CloudGame\obj\Debug\net8.0-windows\CloudGame.pdb
 D:\LTTQ\Lý thuyết\CloudGame\CloudGame\obj\Debug\net8.0-windows\CloudGame.genruntimeconfig.cache
 D:\LTTQ\Lý thuyết\CloudGame\CloudGame\obj\Debug\net8.0-windows\ref\CloudGame.dll
 D:\LTTQ\Lý thuyết\CloudGame\CloudGame\obj\Debug\net8.0-windows\CloudGame.sourcelink.json
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudGame\bin\Debug\net8.0-windows\CloudGame.exe
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudGame\bin\Debug\net8.0-windows\CloudGame.deps.json
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudGame\bin\Debug\net8.0-windows\CloudGame.runtimeconfig.json
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudGame\bin\Debug\net8.0-windows\CloudGame.dll
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudGame\bin\Debug\net8.0-windows\CloudGame.pdb
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudGame\obj\Debug\net8.0-windows\Scene\GameScene.g.cs
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudGame\obj\Debug\net8.0-windows\App.g.cs
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudGame\obj\Debug\net8.0-windows\CloudGame_MarkupCompile.cache
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudGame\obj\Debug\net8.0-windows\CloudGame_MarkupCompile.lref
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudGame\obj\Debug\net8.0-windows\Scene\GameScene.baml
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudGame\obj\Debug\net8.0-windows\CloudGame.g.resources
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudGame\obj\Debug\net8.0-windows\CloudGame.GeneratedMSBuildEditorConfig.editorconfig
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudGame\obj\Debug\net8.0-windows\CloudGame.AssemblyInfoInputs.cache
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudGame\obj\Debug\net8.0-windows\CloudGame.AssemblyInfo.cs
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudGame\obj\Debug\net8.0-windows\CloudGame.csproj.CoreCompileInputs.cache
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudGame\obj\Debug\net8.0-windows\CloudGame.sourcelink.json
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudGame\obj\Debug\net8.0-windows\CloudGame.dll
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudGame\obj\Debug\net8.0-windows\refint\CloudGame.dll
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudGame\obj\Debug\net8.0-windows\CloudGame.pdb
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudGame\obj\Debug\net8.0-windows\CloudGame.genruntimeconfig.cache
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudGame\obj\Debug\net8.0-windows\ref\CloudGame.dll

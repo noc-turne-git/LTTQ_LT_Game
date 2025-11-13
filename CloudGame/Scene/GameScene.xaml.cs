@@ -25,6 +25,7 @@ namespace CloudGame.Scene
         public GameScene()
         {
             InitializeComponent();
+            WindowState = WindowState.Maximized;
             var gameHost = new GameHost(); // tạo UI ảo
             this.Content = gameHost; // gán UI ảo vào Content của Window
         }
