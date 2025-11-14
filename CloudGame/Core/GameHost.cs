@@ -79,16 +79,25 @@ namespace CloudGame.Core
             foreach (var en in enemies)
             {
                 dc.DrawImage(en.Image, new Rect(en.X, en.Y, en.Width, en.Height));
-                dc.DrawRectangle(Brushes.Red, null, new Rect(en.HPX, en.HPY, en.HPWidth, en.HPHeight));//thanh mau HP
+                if (en.CurrentHP == en.MaxHP)
+                    dc.DrawRectangle(Brushes.Red, null, new Rect(en.HPX, en.HPY, en.HPWidth, en.HPHeight));//thanh mau HP
+                else
+                {
+                    double hpPercent = (double)en.CurrentHP / en.MaxHP;
+                    dc.DrawRectangle(Brushes.LimeGreen, null, new Rect(en.HPX,en.HPY, en.HPWidth * hpPercent, en.HPHeight));
+                }    
 
                 en.UpdatePos(deltaSeconds, (int)this.ActualWidth, (int)this.ActualHeight);               
                 foreach (var b in player.Bullets)
                 {
                     if (b.GetBounds().IntersectsWith(en.GetBounds()))
                     {
-                        //MessageBox.Show("defeat");
-                        removeEnemies.Add(en);
+                        en.CurrentHP -= 1;
                         removeBullets.Add(b);
+                        if (en.CurrentHP <=0)
+                        //MessageBox.Show("defeat");
+                            removeEnemies.Add(en);
+                        
                     }
                 }    
             }

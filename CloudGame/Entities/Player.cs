@@ -11,9 +11,9 @@ namespace CloudGame.Entities
         public ImageSource image { get; private set; }
         public double X { get; private set; }
         public double Y { get; private set; }
-        public double Speed { get; set; } = 100; // pixel / second
-        public double Width = 200;
-        public double Height = 130;
+        public double Speed { get; set; } = 200; // pixel / second
+        public double Width = 170;
+        public double Height = 110;
 
         public List<Bullet> Bullets = new(); 
         private bool canShoot = true; 

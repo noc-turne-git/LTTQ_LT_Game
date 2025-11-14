@@ -35,11 +35,10 @@ namespace CloudGame.Entities
             X = PosX;
             Y = PosY;*/
             Width = 50;
-            HPHeight = 50;
+            Height = 50;
             HPWidth = Width;
             HPHeight = 5;
-            HPX = X;
-            HPY = Y - 8;
+            
         }
 
         public static Enemy CreateEnemy(GameTime gameTime, int UIwidth , int UIheight)
@@ -54,6 +53,9 @@ namespace CloudGame.Entities
                 Enemy newEnemy = new Enemy();
                 newEnemy.X = Enemy.rnd.Next(0, (int)(UIwidth - 20)); // chiều rộng enemy là 20
                 newEnemy.Y = Enemy.rnd.Next(0, (int)(UIheight - 20)); // chiều cao enemy là 20
+                newEnemy.HPX = newEnemy.X;
+                newEnemy.HPY = newEnemy.Y - 8;
+
 
                 int type = Enemy.rnd.Next(1, 3); //tạo số >= min và < max.
                
@@ -61,14 +63,15 @@ namespace CloudGame.Entities
                 {
                     case 1:
                         newEnemy.Image = Asset.AssetService.GetImage("Asset/GreenEnemy.png");
-                        newEnemy.MaxHP = 3;
+                        newEnemy.MaxHP = 2;
                         break;
                     case 2:
                     default:
                         newEnemy.Image = Asset.AssetService.GetImage("Asset/YellowEnemy.png");
-                        newEnemy.MaxHP = 5;
+                        newEnemy.MaxHP = 4;
                         break;
                 }
+                newEnemy.CurrentHP = newEnemy.MaxHP;
                 return newEnemy;
             }
             return null;
@@ -108,6 +111,8 @@ namespace CloudGame.Entities
             {
                 dirCurrent = dir; // nếu không chạm biên, giữ hướng hiện tại
             }
+            HPX = X;
+            HPY = Y - 8;
         }
 
         public Rect GetBounds()
