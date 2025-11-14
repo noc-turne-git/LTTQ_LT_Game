@@ -1,4 +1,5 @@
 ﻿using CloudGame.Core;
+using System.Windows;
 using System.Windows.Media;
 
 namespace CloudGame.Entities
@@ -11,20 +12,34 @@ namespace CloudGame.Entities
         public double Y { get; set; } // tọa độ trên màn hình
         public int Width { get; set; }
         public int Height { get; set; }
+        public int MaxHP {  get; set; }
+        public int CurrentHP {  get; set; }
         private double speed = 100; // thay đổi 50 pixels per second
+        
+
+        // Vị trí thanh máu
+        public int HPWidth { get; set; }
+        public int HPHeight {  get; set; }
+        public double HPX { get; set; }
+        public double HPY { get; set; }
+
         private static Random rnd = new Random();
 
         private static TimeSpan lastEnemySpawn = TimeSpan.Zero; // thời điểm spawn quái vật cuối cùng được tạo
 
         private int dirCurrent = rnd.Next(1,5); // hướng di chuyển hiện tại
 
-        public Enemy(ImageSource image, double PosX, double PosY)
+        public Enemy()
         {
-            Image = image;
+            /*Image = image;
             X = PosX;
-            Y = PosY;
+            Y = PosY;*/
             Width = 50;
-            Height = 50;
+            HPHeight = 50;
+            HPWidth = Width;
+            HPHeight = 5;
+            HPX = X;
+            HPY = Y - 8;
         }
 
         public static Enemy CreateEnemy(GameTime gameTime, int UIwidth , int UIheight)
@@ -36,23 +51,24 @@ namespace CloudGame.Entities
                 lastEnemySpawn = gameTime.TotalTime;
                 Console.WriteLine("Spawn Enemy at " + gameTime.TotalTime.TotalSeconds + " seconds");
                 // Tạo enemy mới ở vị trí ngẫu nhiên
-                int posX = Enemy.rnd.Next(0, (int)(UIwidth - 20)); // chiều rộng enemy là 20
-                int posY = Enemy.rnd.Next(0, (int)(UIheight - 20)); // chiều cao enemy là 20
+                Enemy newEnemy = new Enemy();
+                newEnemy.X = Enemy.rnd.Next(0, (int)(UIwidth - 20)); // chiều rộng enemy là 20
+                newEnemy.Y = Enemy.rnd.Next(0, (int)(UIheight - 20)); // chiều cao enemy là 20
 
                 int type = Enemy.rnd.Next(1, 3); //tạo số >= min và < max.
-
-                ImageSource enemyImage;
+               
                 switch (type)
                 {
                     case 1:
-                        enemyImage = Asset.AssetService.GetImage("Asset/GreenEnemy.png");
+                        newEnemy.Image = Asset.AssetService.GetImage("Asset/GreenEnemy.png");
+                        newEnemy.MaxHP = 3;
                         break;
                     case 2:
                     default:
-                        enemyImage = Asset.AssetService.GetImage("Asset/YellowEnemy.png");
+                        newEnemy.Image = Asset.AssetService.GetImage("Asset/YellowEnemy.png");
+                        newEnemy.MaxHP = 5;
                         break;
                 }
-                Enemy newEnemy = new Enemy(enemyImage, posX, posY);
                 return newEnemy;
             }
             return null;
@@ -93,6 +109,12 @@ namespace CloudGame.Entities
                 dirCurrent = dir; // nếu không chạm biên, giữ hướng hiện tại
             }
         }
+
+        public Rect GetBounds()
+        {
+            return new Rect(X, Y, Width, Height);
+        }
+
 
     }
 }

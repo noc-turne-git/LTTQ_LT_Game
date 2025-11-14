@@ -61,7 +61,7 @@ namespace CloudGame.Scene {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/CloudGame;V1.0.0.0;component/scene/gamescene.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CloudGame;component/scene/gamescene.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Scene\GameScene.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

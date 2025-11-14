@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{43AC7B7C-A884-436A-86E4-242DA5B9EC96}|CloudGame\\CloudGame.csproj|d:\\uit\\l\u1EADp tr\u00ECnh tr\u1EF1c quan\\code l\u00ED thuy\u1EBFt\\cloudemaze\\lttq_lt_game\\cloudgame\\core\\gamehost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43AC7B7C-A884-436A-86E4-242DA5B9EC96}|CloudGame\\CloudGame.csproj|solutionrelative:cloudgame\\core\\gamehost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AC7B7C-A884-436A-86E4-242DA5B9EC96}|CloudGame\\CloudGame.csproj|d:\\uit\\l\u1EADp tr\u00ECnh tr\u1EF1c quan\\code l\u00ED thuy\u1EBFt\\cloudemaze\\lttq_lt_game\\cloudgame\\entities\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43AC7B7C-A884-436A-86E4-242DA5B9EC96}|CloudGame\\CloudGame.csproj|solutionrelative:cloudgame\\entities\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{43AC7B7C-A884-436A-86E4-242DA5B9EC96}|CloudGame\\CloudGame.csproj|d:\\uit\\l\u1EADp tr\u00ECnh tr\u1EF1c quan\\code l\u00ED thuy\u1EBFt\\cloudemaze\\lttq_lt_game\\cloudgame\\entities\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43AC7B7C-A884-436A-86E4-242DA5B9EC96}|CloudGame\\CloudGame.csproj|solutionrelative:cloudgame\\entities\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,20 +19,12 @@
       "RelativeMoniker": "D:0:0:{43AC7B7C-A884-436A-86E4-242DA5B9EC96}|CloudGame\\CloudGame.csproj|solutionrelative:cloudgame\\entities\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43AC7B7C-A884-436A-86E4-242DA5B9EC96}|CloudGame\\CloudGame.csproj|d:\\uit\\l\u1EADp tr\u00ECnh tr\u1EF1c quan\\code l\u00ED thuy\u1EBFt\\cloudemaze\\lttq_lt_game\\cloudgame\\core\\inputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43AC7B7C-A884-436A-86E4-242DA5B9EC96}|CloudGame\\CloudGame.csproj|solutionrelative:cloudgame\\core\\inputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43AC7B7C-A884-436A-86E4-242DA5B9EC96}|CloudGame\\CloudGame.csproj|d:\\uit\\l\u1EADp tr\u00ECnh tr\u1EF1c quan\\code l\u00ED thuy\u1EBFt\\cloudemaze\\lttq_lt_game\\cloudgame\\core\\gamehost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43AC7B7C-A884-436A-86E4-242DA5B9EC96}|CloudGame\\CloudGame.csproj|solutionrelative:cloudgame\\core\\gamehost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{43AC7B7C-A884-436A-86E4-242DA5B9EC96}|CloudGame\\CloudGame.csproj|d:\\uit\\l\u1EADp tr\u00ECnh tr\u1EF1c quan\\code l\u00ED thuy\u1EBFt\\cloudemaze\\lttq_lt_game\\cloudgame\\core\\gametime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43AC7B7C-A884-436A-86E4-242DA5B9EC96}|CloudGame\\CloudGame.csproj|solutionrelative:cloudgame\\core\\gametime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43AC7B7C-A884-436A-86E4-242DA5B9EC96}|CloudGame\\CloudGame.csproj|d:\\uit\\l\u1EADp tr\u00ECnh tr\u1EF1c quan\\code l\u00ED thuy\u1EBFt\\cloudemaze\\lttq_lt_game\\cloudgame\\scene\\gamescene.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{43AC7B7C-A884-436A-86E4-242DA5B9EC96}|CloudGame\\CloudGame.csproj|solutionrelative:cloudgame\\scene\\gamescene.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{43AC7B7C-A884-436A-86E4-242DA5B9EC96}|CloudGame\\CloudGame.csproj|d:\\uit\\l\u1EADp tr\u00ECnh tr\u1EF1c quan\\code l\u00ED thuy\u1EBFt\\cloudemaze\\lttq_lt_game\\cloudgame\\core\\inputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43AC7B7C-A884-436A-86E4-242DA5B9EC96}|CloudGame\\CloudGame.csproj|solutionrelative:cloudgame\\core\\inputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43AC7B7C-A884-436A-86E4-242DA5B9EC96}|CloudGame\\CloudGame.csproj|d:\\uit\\l\u1EADp tr\u00ECnh tr\u1EF1c quan\\code l\u00ED thuy\u1EBFt\\cloudemaze\\lttq_lt_game\\cloudgame\\scene\\gamescene.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{43AC7B7C-A884-436A-86E4-242DA5B9EC96}|CloudGame\\CloudGame.csproj|d:\\uit\\l\u1EADp tr\u00ECnh tr\u1EF1c quan\\code l\u00ED thuy\u1EBFt\\cloudemaze\\lttq_lt_game\\cloudgame\\asset\\assetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43AC7B7C-A884-436A-86E4-242DA5B9EC96}|CloudGame\\CloudGame.csproj|solutionrelative:cloudgame\\asset\\assetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43AC7B7C-A884-436A-86E4-242DA5B9EC96}|CloudGame\\CloudGame.csproj|d:\\uit\\l\u1EADp tr\u00ECnh tr\u1EF1c quan\\code l\u00ED thuy\u1EBFt\\cloudemaze\\lttq_lt_game\\cloudgame\\entities\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43AC7B7C-A884-436A-86E4-242DA5B9EC96}|CloudGame\\CloudGame.csproj|solutionrelative:cloudgame\\entities\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,41 +58,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Bullet.cs",
-              "DocumentMoniker": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudGame\\Entities\\Bullet.cs",
-              "RelativeDocumentMoniker": "CloudGame\\Entities\\Bullet.cs",
-              "ToolTip": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudGame\\Entities\\Bullet.cs",
-              "RelativeToolTip": "CloudGame\\Entities\\Bullet.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T16:20:10.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "InputService.cs",
               "DocumentMoniker": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudGame\\Core\\InputService.cs",
               "RelativeDocumentMoniker": "CloudGame\\Core\\InputService.cs",
               "ToolTip": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudGame\\Core\\InputService.cs",
               "RelativeToolTip": "CloudGame\\Core\\InputService.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAIwB4AAAAAAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBwAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T15:55:26.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GameScene.xaml",
-              "DocumentMoniker": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudGame\\Scene\\GameScene.xaml",
-              "RelativeDocumentMoniker": "CloudGame\\Scene\\GameScene.xaml",
-              "ToolTip": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudGame\\Scene\\GameScene.xaml",
-              "RelativeToolTip": "CloudGame\\Scene\\GameScene.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-13T15:43:13.122Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T15:55:26.855Z"
             },
             {
               "$type": "Document",
@@ -108,44 +78,56 @@
               "RelativeToolTip": "CloudGame\\Core\\GameTime.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T11:21:19.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T11:21:19.171Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "GameHost.cs",
               "DocumentMoniker": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudGame\\Core\\GameHost.cs",
               "RelativeDocumentMoniker": "CloudGame\\Core\\GameHost.cs",
               "ToolTip": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudGame\\Core\\GameHost.cs",
               "RelativeToolTip": "CloudGame\\Core\\GameHost.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAywBMAAAAZAAAA",
+              "ViewState": "AQIAADgAAAAAAAAAAAAgwEsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T18:51:54.867Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudGame\\Entities\\Bullet.cs",
+              "RelativeDocumentMoniker": "CloudGame\\Entities\\Bullet.cs",
+              "ToolTip": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudGame\\Entities\\Bullet.cs",
+              "RelativeToolTip": "CloudGame\\Entities\\Bullet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T16:20:10.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Player.cs",
               "DocumentMoniker": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudGame\\Entities\\Player.cs",
               "RelativeDocumentMoniker": "CloudGame\\Entities\\Player.cs",
               "ToolTip": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudGame\\Entities\\Player.cs",
               "RelativeToolTip": "CloudGame\\Entities\\Player.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA3wBQAAAAUAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwA0AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-13T14:56:25.645Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "Enemy.cs",
               "DocumentMoniker": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudGame\\Entities\\Enemy.cs",
               "RelativeDocumentMoniker": "CloudGame\\Entities\\Enemy.cs",
               "ToolTip": "D:\\uit\\L\u1EADp tr\u00ECnh tr\u1EF1c quan\\Code l\u00ED thuy\u1EBFt\\CloudeMaze\\LTTQ_LT_Game\\CloudGame\\Entities\\Enemy.cs",
               "RelativeToolTip": "CloudGame\\Entities\\Enemy.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAwwC8AAABZAAAA",
+              "ViewState": "AQIAADgAAAAAAAAAAAAQwEoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T18:53:02.53Z",
               "EditorCaption": ""
@@ -160,8 +142,7 @@
               "RelativeToolTip": "CloudGame\\Asset\\AssetService.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAQwAkAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T18:57:09.42Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T18:57:09.42Z"
             },
             {
               "$type": "Document",
@@ -173,8 +154,7 @@
               "RelativeToolTip": "CloudGame\\Scene\\GameScene.xaml.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAAABsAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T19:03:23.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T19:03:23.917Z"
             }
           ]
         }

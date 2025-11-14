@@ -28,7 +28,6 @@ namespace CloudGame.Entities
 
         public void Update(double deltaSeconds)
         {
-            // di chuyển lên
             Y += Speed * deltaSeconds;
         }
 

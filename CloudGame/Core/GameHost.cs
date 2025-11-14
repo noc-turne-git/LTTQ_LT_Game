@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Windows;
+using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Threading;
 using CloudGame.Entities;
@@ -11,11 +12,12 @@ namespace CloudGame.Core
     {
         private readonly Stopwatch _stopwatch = new();
         private GameTime gameTime = new GameTime();
-        private DispatcherTimer timer;
+        private DispatcherTimer timer;     
+        private ImageSource backgroundImage; // ảnh nền
+        private InputService inputService;
 
         private List<Enemy> enemies = new List<Enemy>(); // danh sách quái vật trong game
         private Player player;
-        private ImageSource backgroundImage; // ảnh nền
 
         public GameHost()
         {
@@ -23,10 +25,15 @@ namespace CloudGame.Core
             SnapsToDevicePixels = true;
             _stopwatch.Start();
 
+            inputService = new InputService();
+            KeyDown += (s, e) => inputService.KeyDown(e.Key);
+            KeyUp += (s, e) => inputService.KeyUp(e.Key);
             backgroundImage = Asset.AssetService.GetImage("Asset/Scene.png");
+
             Loaded += (s, e) =>
             {
                 player = new Player(this.ActualWidth);
+                Focus();
                 timer = new DispatcherTimer();
                 timer.Interval = TimeSpan.FromMilliseconds(16); // ~60 FPS
                 timer.Tick += Timer_Tick;
@@ -50,35 +57,48 @@ namespace CloudGame.Core
             gameTime.TotalTime = now;
             double deltaSeconds = gameTime.DeltaTime.TotalSeconds;
             dc.DrawImage(backgroundImage, new Rect(0, 0, this.ActualWidth, this.ActualHeight));
-            //Console.WriteLine("Create background");
-            // TODO: Update game logic here
+
+            //PLAYER
             if (player != null)
             {
-                player.Update(deltaSeconds, ActualWidth, ActualHeight);
+                player.Update(deltaSeconds, ActualWidth, ActualHeight, inputService.GetPressedKeys());
                 dc.DrawImage(player.image, new Rect(player.X, player.Y, player.Width, player.Height));
+
+                foreach (var b in player.Bullets)
+                {
+                    dc.DrawImage(b.Image, new Rect(b.X, b.Y, b.Width, b.Height));
+                }
             } 
                 
-
-            //Sau 1 thoi gian --> xuất hiện 1 quái vật
+            //ENEMY
             Enemy newEnemy = Enemy.CreateEnemy(gameTime, (int)this.ActualWidth, (int) this.ActualHeight);
-            //Console.WriteLine($"New Enemy Created");
             if (newEnemy != null) enemies.Add(newEnemy);
 
+            List<Enemy> removeEnemies = new List<Enemy>();
+            List<Bullet> removeBullets = new List<Bullet>();
             foreach (var en in enemies)
             {
                 dc.DrawImage(en.Image, new Rect(en.X, en.Y, en.Width, en.Height));
-                
-                //Console.WriteLine($"Enemy Pos: {en.X}, {en.Y}");
-                //Console.WriteLine($"DeltaTime: {gameTime.DeltaTime.TotalSeconds}s, TotalTime: {gameTime.TotalSeconds.TotalSeconds}s");
+                dc.DrawRectangle(Brushes.Red, null, new Rect(en.HPX, en.HPY, en.HPWidth, en.HPHeight));//thanh mau HP
 
-               // double deltaSeconds = gameTime.DeltaTime.TotalSeconds;
-                en.UpdatePos(deltaSeconds, (int)this.ActualWidth, (int)this.ActualHeight);
+                en.UpdatePos(deltaSeconds, (int)this.ActualWidth, (int)this.ActualHeight);               
+                foreach (var b in player.Bullets)
+                {
+                    if (b.GetBounds().IntersectsWith(en.GetBounds()))
+                    {
+                        //MessageBox.Show("defeat");
+                        removeEnemies.Add(en);
+                        removeBullets.Add(b);
+                    }
+                }    
             }
+            foreach (var en in removeEnemies)
+                enemies.Remove(en);
+            foreach (var b in removeBullets)
+                player.Bullets.Remove(b);
+
             gameTime.LastFrame = now;                              //Ghi lại thời điểm hiện tại để frame sau tính tiếp. 
 
-            // TODO: Draw game objects here
-
-           // InvalidateVisual(); // gọi lại render, ko cần Timer_Tick
         }
     }
 }
