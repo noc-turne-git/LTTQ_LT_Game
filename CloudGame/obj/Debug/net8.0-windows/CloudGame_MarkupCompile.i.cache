@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudGame\App.xaml
-1-1250145490
+41280480313
 
-1397648432
+16859120783
 198-192518753
-Scene\GameScene.xaml;
+Scene\DefeatedScene.xaml;Scene\GameMenu.xaml;Scene\GameScene.xaml;Scene\InformHarderScene.xaml;
 
-False
+True
 

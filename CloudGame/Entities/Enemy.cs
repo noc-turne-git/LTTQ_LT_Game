@@ -6,6 +6,9 @@ namespace CloudGame.Entities
 {
     internal class Enemy
     {
+        const int MOVE_UP = 1;
+        const int MOVE_LEFT = 2;
+        const int MOVE_RIGHT = 3;
         public ImageSource Image { get; set; }
         
         public double X { get; set; } // tọa độ trên màn hình
@@ -14,8 +17,7 @@ namespace CloudGame.Entities
         public int Height { get; set; }
         public int MaxHP {  get; set; }
         public int CurrentHP {  get; set; }
-        private double speed = 100; // thay đổi 50 pixels per second
-        
+        public static double Speed = 300;                                    
 
         // Vị trí thanh máu
         public int HPWidth { get; set; }
@@ -23,89 +25,74 @@ namespace CloudGame.Entities
         public double HPX { get; set; }
         public double HPY { get; set; }
 
-        private static Random rnd = new Random();
-
-        private static TimeSpan lastEnemySpawn = TimeSpan.Zero; // thời điểm spawn quái vật cuối cùng được tạo
-
-        private int dirCurrent = rnd.Next(1,5); // hướng di chuyển hiện tại
+        private static Random rnd = new Random(); 
+        private int dirCurrent = rnd.Next(1,4); // hướng di chuyển hiện tại
 
         public Enemy()
-        {
-            /*Image = image;
-            X = PosX;
-            Y = PosY;*/
-            Width = 50;
-            Height = 50;
+        {          
+            Width = 70;
+            Height = 70;
             HPWidth = Width;
             HPHeight = 5;
-            
         }
 
-        public static Enemy CreateEnemy(GameTime gameTime, int UIwidth , int UIheight)
-        {
-            double totalSeconds = gameTime.TotalTime.TotalSeconds;
-            if (gameTime.TotalTime == TimeSpan.Zero
-                || gameTime.TotalTime - lastEnemySpawn >= gameTime.IntervalEnemySpawn)
-            {
-                lastEnemySpawn = gameTime.TotalTime;
-                Console.WriteLine("Spawn Enemy at " + gameTime.TotalTime.TotalSeconds + " seconds");
+        public static Enemy CreateEnemy(int UIwidth , int UIheight)
+        {          
                 // Tạo enemy mới ở vị trí ngẫu nhiên
-                Enemy newEnemy = new Enemy();
-                newEnemy.X = Enemy.rnd.Next(0, (int)(UIwidth - 20)); // chiều rộng enemy là 20
-                newEnemy.Y = Enemy.rnd.Next(0, (int)(UIheight - 20)); // chiều cao enemy là 20
-                newEnemy.HPX = newEnemy.X;
-                newEnemy.HPY = newEnemy.Y - 8;
+            Enemy newEnemy = new Enemy();
+            newEnemy.X = Enemy.rnd.Next(0, (int)(UIwidth - newEnemy.Width)); // chiều rộng enemy là 20
+            newEnemy.Y = UIheight - newEnemy.Height; // chiều cao enemy là 20
+            newEnemy.HPX = newEnemy.X;
+            newEnemy.HPY = newEnemy.Y - 8;
 
-
-                int type = Enemy.rnd.Next(1, 3); //tạo số >= min và < max.
-               
-                switch (type)
-                {
-                    case 1:
-                        newEnemy.Image = Asset.AssetService.GetImage("Asset/GreenEnemy.png");
-                        newEnemy.MaxHP = 2;
-                        break;
-                    case 2:
-                    default:
-                        newEnemy.Image = Asset.AssetService.GetImage("Asset/YellowEnemy.png");
-                        newEnemy.MaxHP = 4;
-                        break;
-                }
-                newEnemy.CurrentHP = newEnemy.MaxHP;
-                return newEnemy;
+            int type = Enemy.rnd.Next(1, 3);                
+            switch (type)
+            {
+                case 1:
+                    newEnemy.Image = Asset.AssetService.GetImage("Asset/GreenEnemy.png");
+                    newEnemy.MaxHP = 2;
+                    break;
+                case 2:
+                default:
+                    newEnemy.Image = Asset.AssetService.GetImage("Asset/YellowEnemy.png");
+                    newEnemy.MaxHP = 4;
+                    break;
             }
-            return null;
+            newEnemy.CurrentHP = newEnemy.MaxHP;
+            return newEnemy;
         }
 
         public void UpdatePos(double deltaSeconds, double UIwidth, double UIheight)
         {
-            // Chọn hướng mới: 60% giữ hướng cũ, 40% random
             int dir;
+            double rnd_dir = rnd.NextDouble();
+            if (rnd_dir < 0.7)
+                dir = MOVE_UP;
+            else
+                dir = rnd.Next(1, 3);
+            switch (dir)
+            {
+                case MOVE_UP: Y-= Speed * deltaSeconds; break;
+                case MOVE_LEFT: X -= Speed * deltaSeconds; break; // trái
+                case MOVE_RIGHT: X += Speed * deltaSeconds; break; // phải
+            }
+
             if (rnd.NextDouble() < 0.8)
                 dir = dirCurrent;
             else
-                dir = rnd.Next(1, 5);
-
-            // Cập nhật vị trí theo hướng
-            switch (dir)
-            {
-                case 1: X += speed * deltaSeconds; break; // phải
-                case 2: X -= speed * deltaSeconds; break; // trái
-                case 3: Y += speed * deltaSeconds; break; // xuống
-                case 4: Y -= speed * deltaSeconds; break; // lên
-            }
+                dir = rnd.Next(1, 4);       
 
             // Kiểm tra chạm biên
             bool hitBorder = false;
-            if (X < 0) { X = 0; hitBorder = true; }
-            if (X > UIwidth - Width) { X = UIwidth - Width; hitBorder = true; }
+            if (X < 50) { X = 50; hitBorder = true; }
+            if (X > UIwidth - Width - 50) { X = UIwidth - Width - 50; hitBorder = true; }
             if (Y < 0) { Y = 0; hitBorder = true; }
             if (Y > UIheight - Height) { Y = UIheight - Height; hitBorder = true; }
 
             // Nếu chạm biên, chọn hướng mới ngẫu nhiên
             if (hitBorder)
             {
-                dirCurrent = rnd.Next(1, 5); // thay hướng mới
+                dirCurrent = rnd.Next(1, 4); // thay hướng mới
             }
             else
             {
@@ -119,7 +106,5 @@ namespace CloudGame.Entities
         {
             return new Rect(X, Y, Width, Height);
         }
-
-
     }
 }

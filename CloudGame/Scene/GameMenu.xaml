@@ -1,0 +1,90 @@
+﻿<Window x:Class="CloudGame.Scene.GameMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Game Menu"
+        Height="600"
+        Width="800"
+        Background="#0A0F1F">
+
+    <Window.Resources>
+        <!-- Unified TextBlock Style -->
+        <Style x:Key="InstructionTextStyle" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="30"/>
+            <Setter Property="Margin" Value="0 6 0 6"/>
+        </Style>
+        <Style x:Key="TitleTextStyle" TargetType="TextBlock" BasedOn="{StaticResource InstructionTextStyle}">
+            <Setter Property="FontSize" Value="40"/>
+            <Setter Property="Foreground" Value="Aqua"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Margin" Value="0 0 0 20"/>
+            <Setter Property="TextAlignment" Value="Center"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <!-- Instruction Panel -->
+        <Border Background="#0A0F1F" 
+                CornerRadius="10" 
+                Padding="20" 
+                Margin="30">
+            <StackPanel>
+                <TextBlock Text="HOW TO PLAY" Style="{StaticResource TitleTextStyle}"/>
+                <TextBlock Text="The player can move right and left using the arrow keys" Style="{StaticResource InstructionTextStyle}"/>
+                <TextBlock Text="The player can attack using the Space key." Style="{StaticResource InstructionTextStyle}"/>
+                <TextBlock Text="Enemies appear from below and move in any direction except downaward." Style="{StaticResource InstructionTextStyle}"/>
+                <TextBlock Text="Avoid touching enemies. A single hit results in death." Style="{StaticResource InstructionTextStyle}"/>
+
+                <!-- Start Game Button (Rounded with Shadow) -->
+                <Button Content="Start Game"
+                        Click ="btnStartGame_Click"
+                        Width="200"
+                        FontSize="30"
+                        FontWeight="Bold"
+                        Foreground="White"
+                        Background="#5C3DFF"
+                        BorderBrush="#927AFF"
+                        BorderThickness="2"
+                        Cursor="Hand"
+                        HorizontalAlignment="Center"
+                        Margin="0 100 0 0">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border x:Name="btnBorder"
+                                    CornerRadius="30"
+                                    Background="{TemplateBinding Background}"
+                                    BorderBrush="{TemplateBinding BorderBrush}"
+                                    BorderThickness="{TemplateBinding BorderThickness}">
+                                <ContentPresenter HorizontalAlignment="Center"
+                                                  VerticalAlignment="Center"/>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="true">
+                                    <Setter TargetName="btnBorder"
+                                            Property="Background"
+                                            Value="#7A5CFF"/>
+                                    <Setter TargetName="btnBorder"
+                                            Property="Effect">
+                                        <Setter.Value>
+                                            <DropShadowEffect Color="#A48CFF"
+                                              BlurRadius="35"
+                                              ShadowDepth="0"/>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Button.Template>
+                    <Button.Effect>
+                        <DropShadowEffect Color="#7C5CFF"
+                                          BlurRadius="25"
+                                          ShadowDepth="0"/>
+                    </Button.Effect>
+                </Button>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

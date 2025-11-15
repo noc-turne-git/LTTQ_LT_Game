@@ -11,17 +11,17 @@ namespace CloudGame.Entities
         public ImageSource image { get; private set; }
         public double X { get; private set; }
         public double Y { get; private set; }
-        public double Speed { get; set; } = 200; // pixel / second
-        public double Width = 170;
+        public double Speed { get; set; } = 250; // pixel / second
+        public double Width = 250;
         public double Height = 110;
 
         public List<Bullet> Bullets = new(); 
         private bool canShoot = true; 
 
+
         public Player(double hostWidth)
         {
             image = AssetService.GetImage("Asset/Cloud.png");
-            // Đặt giữa màn hình
             X = (hostWidth - Width) / 2;
             Y = 10 ;
         }
@@ -45,6 +45,7 @@ namespace CloudGame.Entities
             if (Y < 0) Y = 0;
             if (X + Width > maxWidth) X = maxWidth - Width;
             if (Y + Height > maxHeight) Y = maxHeight - Height;
+
 
             if (keys.Contains(Key.Space))
             {
@@ -74,8 +75,8 @@ namespace CloudGame.Entities
             double bulletX = X + Width / 2 - 10; // bullet width 20
             double bulletY = Y + Height / 2 + 10;
             Bullets.Add(new Bullet(bulletX, bulletY));
-        }
 
+        }
         public Rect GetBounds()
         {
             return new Rect(X, Y, Width, Height);

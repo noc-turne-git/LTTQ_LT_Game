@@ -40,3 +40,9 @@ D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudG
 D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudGame\obj\Debug\net8.0-windows\CloudGame.pdb
 D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudGame\obj\Debug\net8.0-windows\CloudGame.genruntimeconfig.cache
 D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudGame\obj\Debug\net8.0-windows\ref\CloudGame.dll
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudGame\obj\Debug\net8.0-windows\Scene\GameMenu.baml
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudGame\obj\Debug\net8.0-windows\Scene\DefeatedScene.g.cs
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudGame\obj\Debug\net8.0-windows\Scene\GameMenu.g.cs
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudGame\obj\Debug\net8.0-windows\Scene\InformHarderScene.g.cs
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudGame\obj\Debug\net8.0-windows\Scene\DefeatedScene.baml
+D:\uit\Lập trình trực quan\Code lí thuyết\CloudeMaze\LTTQ_LT_Game\CloudGame\obj\Debug\net8.0-windows\Scene\InformHarderScene.baml
