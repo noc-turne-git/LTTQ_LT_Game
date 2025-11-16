@@ -12,7 +12,7 @@ namespace CloudGame.Entities
         public double X { get; private set; }
         public double Y { get; private set; }
         public double Speed { get; set; } = 250; // pixel / second
-        public double Width = 250;
+        public double Width = 220;
         public double Height = 110;
 
         public List<Bullet> Bullets = new(); 

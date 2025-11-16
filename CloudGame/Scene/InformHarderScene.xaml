@@ -5,8 +5,94 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CloudGame.Scene"
         mc:Ignorable="d"
-        Title="InformHarderScene" Height="450" Width="800"
-        Background="#4D39CC">
-    
-    
+        Title="InformHarderScene" 
+        Background="AliceBlue"
+        WindowState="Maximized">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="btnBorder"
+                                CornerRadius="30"
+                                Background="#5C3DFF"
+                                BorderBrush="#927AFF"
+                                BorderThickness="2">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter TargetName="btnBorder" Property="Background" Value="#7A5CFF"/>
+
+                                <Setter TargetName="btnBorder" Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect Color="#A48CFF"
+                                        BlurRadius="35"  ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect Color="#7C5CFF"
+                                      BlurRadius="25"
+                                      ShadowDepth="0"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid x:Name="RootGrid">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <!-- Ảnh random -->
+        <Image Grid.Row="0"
+               x:Name="RandomImage"
+               Stretch="Uniform"
+               VerticalAlignment="Center"
+               Margin="0,30,0,0"/>
+
+        <!-- TextBox demo -->
+        <TextBox Grid.Row="1"
+                 Text="Game sẽ tăng độ khó"
+                 FontSize="55"
+                 IsReadOnly="True"
+                 BorderThickness="0"
+                 Background="Transparent"
+                 Foreground="#7C5CFF"
+                 FontWeight="Bold"
+                 HorizontalAlignment="Center"
+                 VerticalAlignment="Center"/>
+        <StackPanel Grid.Row="2" Orientation="Horizontal"
+                     HorizontalAlignment="Center">
+
+            <Button Content="Đồng ý"
+                    Click ="BtnContinue_Click"
+                    Width="200"
+                    FontSize="30"
+                    Height="60"
+                    Margin="0 0 30 0"/>
+                   
+            <Button Content="OK"
+                     Click ="BtnContinue_Click"
+                     Width="200"
+                     FontSize="30"
+                     Height="60"
+                     Margin="30 0 0 0 "/>
+        </StackPanel >       
+        
+    </Grid>
 </Window>

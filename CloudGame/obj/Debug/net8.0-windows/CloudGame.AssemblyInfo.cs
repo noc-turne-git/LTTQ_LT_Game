@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CloudGame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75c538a87e0085b8d7bce14c0c4f825234a0ba04")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f11edca541516044cc692a23880c00305e36429")]
 [assembly: System.Reflection.AssemblyProductAttribute("CloudGame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CloudGame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

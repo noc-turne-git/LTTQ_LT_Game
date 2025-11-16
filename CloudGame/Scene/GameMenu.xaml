@@ -32,17 +32,18 @@
                 Padding="20" 
                 Margin="30">
             <StackPanel>
-                <TextBlock Text="HOW TO PLAY" Style="{StaticResource TitleTextStyle}"/>
-                <TextBlock Text="The player can move right and left using the arrow keys" Style="{StaticResource InstructionTextStyle}"/>
-                <TextBlock Text="The player can attack using the Space key." Style="{StaticResource InstructionTextStyle}"/>
-                <TextBlock Text="Enemies appear from below and move in any direction except downaward." Style="{StaticResource InstructionTextStyle}"/>
-                <TextBlock Text="Avoid touching enemies. A single hit results in death." Style="{StaticResource InstructionTextStyle}"/>
+                <TextBlock Text="HOW TO PLAY" Style="{StaticResource TitleTextStyle}" FontSize="60"/>
+                <TextBlock Text="The player can move right and left using the ARROW KEY" Margin="40,50, 10, 0" Style="{StaticResource InstructionTextStyle}"/>
+                <TextBlock Text="The player can attack using the SPACE KEY." Margin ="40 5" Style="{StaticResource InstructionTextStyle}"/>
+                <TextBlock Text="Enemies appear from below and move in any direction except downaward." Margin ="40 5" Style="{StaticResource InstructionTextStyle}"/>
+                <TextBlock Text="Avoid touching enemies. A single hit results in death." Margin ="40 5" Style="{StaticResource InstructionTextStyle}"/>
 
                 <!-- Start Game Button (Rounded with Shadow) -->
                 <Button Content="Start Game"
                         Click ="btnStartGame_Click"
-                        Width="200"
-                        FontSize="30"
+                        Width="250"
+                        Height="80"
+                        FontSize="40"
                         FontWeight="Bold"
                         Foreground="White"
                         Background="#5C3DFF"
@@ -50,7 +51,7 @@
                         BorderThickness="2"
                         Cursor="Hand"
                         HorizontalAlignment="Center"
-                        Margin="0 100 0 0">
+                        Margin="0 80 0 0">
                     <Button.Template>
                         <ControlTemplate TargetType="Button">
                             <Border x:Name="btnBorder"

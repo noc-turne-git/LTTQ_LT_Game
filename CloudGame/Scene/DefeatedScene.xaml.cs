@@ -1,7 +1,5 @@
 ﻿using System.Windows;
-using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace CloudGame.Scene
 {
@@ -12,29 +10,26 @@ namespace CloudGame.Scene
     {
         private Random rnd = new Random();
         private static int CountImage = 4;
-        public DefeatedScene()
+        private GameMenu gameMenu;
+        public DefeatedScene(GameMenu _gameMenu)
         {
             InitializeComponent();
-            WindowState = WindowState.Maximized;
+            gameMenu = _gameMenu;
+            LoadImage();
+        }
+
+        private void LoadImage()
+        {
             int index = rnd.Next(1, CountImage + 1);
-            ImageSource image;
-            switch (index)
-            {
-                case 1:
-                    image = new BitmapImage(new Uri("Asset/Defeated/pic1.png", UriKind.Relative));
-                    break;
-                case 2:
-                    image = new BitmapImage(new Uri("Asset/Defeated/pic2.png", UriKind.Relative));
-                    break;
-                case 3:
-                    image = new BitmapImage(new Uri("Asset/Defeated/pic3.png", UriKind.Relative));
-                    break;
-                case 4:
-                default:
-                    image = new BitmapImage(new Uri("Asset/Defeated/pic4.png", UriKind.Relative));
-                    break;
-            }
-            this.Content = image;
+            string absolutePath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory,
+                               $"Asset/Defeated/pic{index}.png");
+            DefeatedImage.Source = new BitmapImage(new Uri(absolutePath));
+           
+        }
+        private void ReturnMenu_Click(object sender, RoutedEventArgs e)
+        {
+            gameMenu.Show();
+            this.Close();
         }
     }
 }

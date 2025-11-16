@@ -9,12 +9,14 @@ namespace CloudGame.Scene
     public partial class GameScene : Window
     {
         public GameHost gameHost { get;}
-        public GameScene()
+        private GameMenu gameMenu;
+        public GameScene(GameMenu menu)
         {
             InitializeComponent();
             WindowState = WindowState.Maximized;
 
-            gameHost = new GameHost(this);
+            gameMenu = menu;
+            gameHost = new GameHost(this, menu);
             this.Content = gameHost;
     
         }

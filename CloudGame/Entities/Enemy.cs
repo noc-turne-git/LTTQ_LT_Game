@@ -17,7 +17,7 @@ namespace CloudGame.Entities
         public int Height { get; set; }
         public int MaxHP {  get; set; }
         public int CurrentHP {  get; set; }
-        public static double Speed = 300;                                    
+        public static double Speed = 50;                                    
 
         // Vị trí thanh máu
         public int HPWidth { get; set; }

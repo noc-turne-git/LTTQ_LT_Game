@@ -20,14 +20,15 @@ namespace CloudGame.Core
 
         private List<Enemy> enemies = new List<Enemy>(); // danh sách quái vật trong game
         private Player player;
-         private InputService inputService;
+        private InputService inputService;
         private GameScene gameScene;
+        private GameMenu gameMenu;
 
         private bool harderShown = false;
         private bool defeatedShown = false;// đã hiện Window InformHaderScene chưa
         private bool paused = false;                     // lưu trạng thái tạm dừng game
                            // cần mở Window InformHaderScene khi đạt thời gian nhưng Window cần tham chiếu tới GameScene
-        public GameHost(GameScene gameScene)
+        public GameHost(GameScene gameScene, GameMenu menu)
         {
             Focusable = true;
             SnapsToDevicePixels = true;
@@ -36,14 +37,15 @@ namespace CloudGame.Core
 
             KeyDown += (s, e) => inputService.KeyDown(e.Key);
             KeyUp += (s, e) => inputService.KeyUp(e.Key);
-            backgroundImage = Asset.AssetService.GetImage("Asset/Scene.png");
+            backgroundImage = Asset.AssetService.GetImage("Asset/Scene3.png");
             this.gameScene = gameScene;
+            this.gameMenu = menu;
             Loaded += (s, e) =>
             {
                 Focus();
                 player = new Player(this.ActualWidth);
                 timer = new DispatcherTimer();
-                timer.Interval = TimeSpan.FromMilliseconds(16); // ~60 FPS
+                timer.Interval = TimeSpan.FromMilliseconds(20); // ~60 FPS
                 timer.Tick += Timer_Tick;
                 timer.Start();       
             };
@@ -128,7 +130,7 @@ namespace CloudGame.Core
             foreach (var b in removeBullets)
                 player.Bullets.Remove(b);          
 
-            if (!harderShown && gameTime.TotalTime.TotalMinutes >= 0.1)
+            if (!harderShown && gameTime.TotalTime.TotalMinutes >= 0.5)
             {
                 OpenInformHaderScene();
             }
@@ -164,8 +166,8 @@ namespace CloudGame.Core
         }
         public void SetHarder()
         {        
-            Enemy.Speed = Enemy.Speed + 50;                            // tăng tốc độ di chuyển của quái vật
-            enemySpawnInterval = TimeSpan.FromSeconds(0.2);       // tăng tốc độ xuất hiện của quái vật
+            Enemy.Speed = Enemy.Speed + 30;                            // tăng tốc độ di chuyển của quái vật
+            enemySpawnInterval = TimeSpan.FromSeconds(0.5);       // tăng tốc độ xuất hiện của quái vật
             ResumeGame();
         }
 
@@ -177,7 +179,7 @@ namespace CloudGame.Core
             // Mở window trên UI thread
             Application.Current.Dispatcher.Invoke(() =>
             {
-                DefeatedScene defeatedScene = new DefeatedScene();
+                DefeatedScene defeatedScene = new DefeatedScene(gameMenu);
                 gameScene.Hide();
                 defeatedScene.Show();
             });

@@ -5,8 +5,85 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CloudGame.Scene"
         mc:Ignorable="d"
-        Title="DefeatedScene" Height="450" Width="800">
+        Title="DefeatedScene" 
+        WindowState="Maximized">
+
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="btnBorder"
+                             CornerRadius="30"
+                             Background="#5C3DFF"
+                             BorderBrush="#927AFF"
+                             BorderThickness="2">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter TargetName="btnBorder" Property="Background" Value="#7A5CFF"/>
+
+                                <Setter TargetName="btnBorder" Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect Color="#A48CFF"
+                                     BlurRadius="35"  ShadowDepth="0"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect Color="#7C5CFF"
+                                   BlurRadius="25"
+                                   ShadowDepth="0"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+
+        <!-- TextBox demo -->
+        <TextBox Grid.Row="0"
+           Text="YOU LOSE (lêu lêu)"
+           FontSize="55"
+           IsReadOnly="True"
+           BorderThickness="0"
+           Background="Transparent"
+           Foreground="#7C5CFF"
+           FontWeight="Bold"
+           HorizontalAlignment="Center"
+           VerticalAlignment="Center"
+            Margin="0 10"/>
         
+        <Image Grid.Row="1"
+               x:Name="DefeatedImage"
+               Stretch="Uniform"
+               VerticalAlignment="Center"
+               Margin="0,10,0,0"/>
+
+        <Button Grid.Row ="2"
+                Content="Return Menu"
+                Click="ReturnMenu_Click"
+                FontSize="35"
+                Width="500"
+                Height="60"/>
+        
+
     </Grid>
 </Window>
